@@ -42,59 +42,77 @@ var popup14 = new mapboxgl.Popup({ offset: 30 }).setText(
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([101.684586, 3.13473])
     .addTo(map)
-    .setPopup(popup); //kl
+    .setPopup(popup)
+    .togglePopup();//k
+
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([101.469502, 3.002118])
     .addTo(map)
-    .setPopup(popup2); //Selangor
+    .setPopup(popup2)
+    .togglePopup();//Selangor
+
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([102.038402, 2.689074])
     .addTo(map)
-    .setPopup(popup3); //Negeri 9
+    .setPopup(popup3)
+    .togglePopup();//Negeri 9
+
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([102.285162, 2.261139])
     .addTo(map)
-    .setPopup(popup4); //Melaka
+    .setPopup(popup4)
+    .togglePopup();//Melaka
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([103.329078, 2.173619])
     .addTo(map)
-    .setPopup(popup5); //Johor
+    .setPopup(popup5)
+    .togglePopup();//Johor
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([101.075623, 4.476668])
     .addTo(map)
-    .setPopup(popup6); //Perak
+    .setPopup(popup6)
+    .togglePopup();//Perak
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([100.562769, 6.034881])
     .addTo(map)
-    .setPopup(popup7); //Kedah
+    .setPopup(popup7)
+    .togglePopup();//Kedah
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([100.257043, 6.489652])
     .addTo(map)
-    .setPopup(popup8); //Perlis
+    .setPopup(popup8)
+    .togglePopup();//Perlis
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([102.204205, 6.097009])
     .addTo(map)
-    .setPopup(popup9); //Kelantan
+    .setPopup(popup9)
+    .togglePopup();//Kelantan
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([103.02765, 5.265902])
     .addTo(map)
-    .setPopup(popup10); //Terenggani
+    .setPopup(popup10)
+    .togglePopup();//Terengganu
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([102.377063, 3.952406])
     .addTo(map)
-    .setPopup(popup11); //pahang
+    .setPopup(popup11)
+    .togglePopup();//pahang
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([116.155898, 5.325183])
     .addTo(map)
-    .setPopup(popup12); //sabah
+    .setPopup(popup12)
+    .togglePopup();//sabah
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([111.821519, 2.275926])
     .addTo(map)
-    .setPopup(popup13); //sarawak
+    .setPopup(popup13)
+    .togglePopup();//sarawak
+
 new mapboxgl.Marker({ color: "#b40219" })
     .setLngLat([100.262059, 5.384068])
     .addTo(map)
-    .setPopup(popup14); //pulau pinang
+    .setPopup(popup14)
+    .togglePopup();//pulau pinang
 
 var currentDate  = new Date(),
     currentDay   = currentDate.getDate() < 10 
